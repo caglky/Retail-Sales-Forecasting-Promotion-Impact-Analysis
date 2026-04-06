@@ -73,10 +73,12 @@ Retail companies often struggle to accurate forecase future sales, especially wh
    git clone <repo_link>
    cd <repo_name>
 2. Create and activate a virtual environment:
-   pythın -m venv venv
+   ```bash
+   python -m venv venv
    source venv/bin/activate
 
 3. Install repuired packages :
+   ```bash
    pip install -r requirements.txt
 
 ---
