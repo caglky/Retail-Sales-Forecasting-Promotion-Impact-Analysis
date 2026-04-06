@@ -3,23 +3,14 @@
 This project focuses on forecasting retail sales and analyzing the impact of promotion using time series data. The goal is to build a structered and reproducible machine learning pipeline, starting from raw data to model evaluation and simulation.
 
 ## Project Structure 
-
-promocast/
-
+```bash
 │
-
 ├── data/
-
 │   ├── train.csv
-
 │   ├── test.csv
-
 │   ├── stores.csv
-
 │   ├── oil.csv
-
 │   └── holidays_events.csv
-
 │
 ├── notebooks/
 │   ├── 01_eda.ipynb
@@ -41,7 +32,7 @@ promocast/
 │   └── metrics.json
 │
 └── README.md
-
+```
 ---
 
 ## Project Overview
