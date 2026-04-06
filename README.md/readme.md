@@ -5,13 +5,21 @@ This project focuses on forecasting retail sales and analyzing the impact of pro
 ## Project Structure 
 
 promocast/
+
 │
+
 ├── data/
+
 │   ├── train.csv
+
 │   ├── test.csv
+
 │   ├── stores.csv
+
 │   ├── oil.csv
+
 │   └── holidays_events.csv
+
 │
 ├── notebooks/
 │   ├── 01_eda.ipynb
