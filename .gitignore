@@ -1,0 +1,11 @@
+data/
+outputs/
+.vscode/ 
+
+__pycache__/
+.ipynb_checkpoints/
+
+*.h5
+*.pk1
+*.zip
+.DS_Store
