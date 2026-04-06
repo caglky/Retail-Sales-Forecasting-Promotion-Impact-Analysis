@@ -1,6 +1,6 @@
 ## Retail Sales Forecasting & Promotion Impact Analysis
 
-This project focuses on forecasting retail sales and analyzing the impact of promotion using time series data. The goal is to build a structered and reproducible machine learning pipeline, starting from raw data to model evaluation and simulation.
+Retail companies often struggle to accurate forecase future sales, especially when promotion, holidays, and external factors affect customer behavior. This project focuses to suggest best estimation by building machine learning pipeline that predicts future sales and analyzes the impact of promotional activities using time series data. 
 
 ## Project Structure 
 ```bash
@@ -37,11 +37,12 @@ This project focuses on forecasting retail sales and analyzing the impact of pro
 
 ## Project Overview
 
-- Perform exploratory data analysis (EDA)
-- Build reusable feature engineering functions
-- Train baseline and deep learning models (LSTM)
-- Evaluate model performance using appropriate metrics
-- Simulate promotion effects on sales
+- Data analysis to understand patterns in sales (EDA)
+- Build reusable feature engineering functions which improve model performance
+- Baseline model for simple predictions
+- LSTM model for more advanced forecasting
+- Evaluation of model performance using appropriate metrics
+- Simulator to test how promotions impact future sales
 
 ---
 
@@ -65,6 +66,20 @@ This project focuses on forecasting retail sales and analyzing the impact of pro
 
 ---
 
+## Setup 
+
+1. Clone the repository :
+   ```bash
+   git clone <repo_link>
+   cd <repo_name>
+2. Create and activate a virtual environment:
+   pythın -m venv venv
+   source venv/bin/activate
+
+3. Install repuired packages :
+   pip install -r requirements.txt
+
+---
 
 ## Dataset
 
@@ -72,6 +87,8 @@ The dataset is not included in this repository due to size limitations.
 You can download it from Kaggle: 
 https://www.kaggle.com/competitions/store-sales-time-series-forecasting 
 (after downloading, place the files inside a data/folder)
+
+---
 
 ## Motivation
 
